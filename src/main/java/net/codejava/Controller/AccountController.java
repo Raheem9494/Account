@@ -24,6 +24,7 @@ public class AccountController {
 	
 	
 	public AccountController(AccountService accountService) {
+		log.info("dummy log");
 		this.accountService = accountService;
 	}
 
